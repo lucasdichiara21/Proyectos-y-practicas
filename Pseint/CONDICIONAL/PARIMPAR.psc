@@ -1,0 +1,13 @@
+Algoritmo PARIMPAR
+	DEFINIR NUM COMO ENTERO;
+	ESCRIBIR "INGRESAR UN NÚMERO";
+	LEER NUM;
+	SI NUM MOD 2==0 Entonces
+		ESCRIBIR "EL NÚMERO ",NUM," ES PAR"
+	SiNo
+		SI NUM MOD 2<>0 Entonces
+			ESCRIBIR"EL NÚMERO ",NUM," ES IMPAR";
+		FinSi
+		
+	FinSi
+FinAlgoritmo

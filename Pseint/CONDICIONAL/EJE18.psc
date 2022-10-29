@@ -1,0 +1,33 @@
+Algoritmo EJE18_PLUS
+	DEFINIR NUM Como Entero;
+	DEFINIR DIA Como Caracter;
+	ESCRIBIR "INGRESE UN NÚMERO DEL 1 AL 7";
+	LEER NUM;
+	SI NUM>=1 Y NUM <=7 Entonces
+		SEGUN NUM Hacer
+			1:
+				DIA="LUNES";
+				ESCRIBIR"EL DIA DE HOY ES ", DIA;
+			2:
+				DIA="MARTES";
+				ESCRIBIR"EL DIA DE HOY ES ", DIA;
+			3:
+				DIA="MIERCOLES";
+				ESCRIBIR"EL DIA DE HOY ES ", DIA;
+			4:
+				DIA="JUEVES";
+				ESCRIBIR"EL DIA DE HOY ES ", DIA;
+			5:
+				DIA="VIERNES";
+				ESCRIBIR"EL DIA DE HOY ES ", DIA;
+			6:
+				DIA="SÁBADO";
+				ESCRIBIR"EL DIA DE HOY ES ", DIA;
+			7:	
+				DIA="DOMINGO";
+				ESCRIBIR"EL DIA DE HOY ES ", DIA;
+		FinSegun
+	SINO 
+		ESCRIBIR "ERROR NÚMERO INCORRECTO";
+	FinSi
+FinAlgoritmo
